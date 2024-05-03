@@ -1,6 +1,6 @@
 name = "HDF4_jll"
 uuid = "818ab7a1-5177-5f44-ba99-6e845030c6cb"
-version = "4.2.16+0"
+version = "4.3.0+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
@@ -12,3 +12,7 @@ Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 [compat]
 JLLWrappers = "1.2.0"
 julia = "1.6"
+JpegTurbo_jll = "3.0.2"
+Zlib_jll = "1.2.12"
+Libdl = "1"
+Artifacts = "1"
