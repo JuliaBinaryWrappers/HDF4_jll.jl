@@ -1,143 +1,160 @@
 [[HDF4]]
 arch = "aarch64"
-git-tree-sha1 = "c228bb186632431c9a79cd531439cc5a732442ad"
+git-tree-sha1 = "d118c8f503d366d0e0d35c29aefa2f2185ee7f32"
 os = "macos"
 
     [[HDF4.download]]
-    sha256 = "79f0cbe832a8baeaeaab47f83893165287abbe65f4f8e8c9fe9ec9b3af603516"
-    url = "https://github.com/JuliaBinaryWrappers/HDF4_jll.jl/releases/download/HDF4-v4.3.0+0/HDF4.v4.3.0.aarch64-apple-darwin.tar.gz"
+    sha256 = "31e1851880dc9c30c2e7e6ee2b6919f1539d3bc6631289cf02fe989625f7cdf5"
+    url = "https://github.com/JuliaBinaryWrappers/HDF4_jll.jl/releases/download/HDF4-v4.3.1+0/HDF4.v4.3.1.aarch64-apple-darwin.tar.gz"
 [[HDF4]]
 arch = "aarch64"
-git-tree-sha1 = "e05ac6dc26e42598d069ed3afac7c8e0cf53788b"
+git-tree-sha1 = "e0cb530c5d49a0f84b232411e9302020a44c71ca"
 libc = "glibc"
 os = "linux"
 
     [[HDF4.download]]
-    sha256 = "20335edf130e89d3783519573acd664c8930b8f83f238006f8a8620d888bda83"
-    url = "https://github.com/JuliaBinaryWrappers/HDF4_jll.jl/releases/download/HDF4-v4.3.0+0/HDF4.v4.3.0.aarch64-linux-gnu.tar.gz"
+    sha256 = "9c3c415c0989fbe5bf94ea18a3810456663dd2840a800fb16639ccd81998778a"
+    url = "https://github.com/JuliaBinaryWrappers/HDF4_jll.jl/releases/download/HDF4-v4.3.1+0/HDF4.v4.3.1.aarch64-linux-gnu.tar.gz"
 [[HDF4]]
 arch = "aarch64"
-git-tree-sha1 = "f365f642e8df87329b2e20ca8ffb62f40154bb6e"
+git-tree-sha1 = "f4b9eeba7989b5dd55b6a36a76f9ed7a13f2e642"
 libc = "musl"
 os = "linux"
 
     [[HDF4.download]]
-    sha256 = "507dc5c9a97450e6c23b50280f0ba5e1d371bbb45b9a07eaa234f4fef1d0dea9"
-    url = "https://github.com/JuliaBinaryWrappers/HDF4_jll.jl/releases/download/HDF4-v4.3.0+0/HDF4.v4.3.0.aarch64-linux-musl.tar.gz"
+    sha256 = "815bb616bcbb056c4538990401ec2f962aff29d40b36d29ecb432a8d25187df2"
+    url = "https://github.com/JuliaBinaryWrappers/HDF4_jll.jl/releases/download/HDF4-v4.3.1+0/HDF4.v4.3.1.aarch64-linux-musl.tar.gz"
 [[HDF4]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "7c493a18dc6f275e7723996ae2489a7f021bb892"
-libc = "glibc"
-os = "linux"
-
-    [[HDF4.download]]
-    sha256 = "c881bef16a5d74d71c4147731a4b2689070b2d550f583273c4dbded44b925c80"
-    url = "https://github.com/JuliaBinaryWrappers/HDF4_jll.jl/releases/download/HDF4-v4.3.0+0/HDF4.v4.3.0.armv6l-linux-gnueabihf.tar.gz"
-[[HDF4]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "8ca747305307154c29d12048df788579a1ab5730"
-libc = "musl"
-os = "linux"
-
-    [[HDF4.download]]
-    sha256 = "75fcdf626b4aad9879fd1f4f9d464156ad156ec007424eb328a095ce3c5963a5"
-    url = "https://github.com/JuliaBinaryWrappers/HDF4_jll.jl/releases/download/HDF4-v4.3.0+0/HDF4.v4.3.0.armv6l-linux-musleabihf.tar.gz"
-[[HDF4]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "d4f0eeae4b061138567a79f26225fbb9578244fd"
-libc = "glibc"
-os = "linux"
-
-    [[HDF4.download]]
-    sha256 = "7fb581a90c44879af9690a00f765bf03f9e4df9c33b7c2369e3b488e6856cad5"
-    url = "https://github.com/JuliaBinaryWrappers/HDF4_jll.jl/releases/download/HDF4-v4.3.0+0/HDF4.v4.3.0.armv7l-linux-gnueabihf.tar.gz"
-[[HDF4]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "818e7e516bc1cebc95ed00ad8a1df98e881f7b12"
-libc = "musl"
-os = "linux"
-
-    [[HDF4.download]]
-    sha256 = "8c3e13a49bbea4396b5fc9c848ca38e993543337a91b3692d5da6c13aa0d09b5"
-    url = "https://github.com/JuliaBinaryWrappers/HDF4_jll.jl/releases/download/HDF4-v4.3.0+0/HDF4.v4.3.0.armv7l-linux-musleabihf.tar.gz"
-[[HDF4]]
-arch = "i686"
-git-tree-sha1 = "66907cfe9008b8f4916284ea5083117b52162a34"
-libc = "glibc"
-os = "linux"
-
-    [[HDF4.download]]
-    sha256 = "5568430d59ee98f9633fc012de553b7b95a079f746641aeacad8867f70685ba2"
-    url = "https://github.com/JuliaBinaryWrappers/HDF4_jll.jl/releases/download/HDF4-v4.3.0+0/HDF4.v4.3.0.i686-linux-gnu.tar.gz"
-[[HDF4]]
-arch = "i686"
-git-tree-sha1 = "24daacdcbb753af92624ea4e6f5ed44947124ab0"
-libc = "musl"
-os = "linux"
-
-    [[HDF4.download]]
-    sha256 = "9f5299f56d16a733830a03b12ff1d02c37cc9f657915a98d965e04351c67f168"
-    url = "https://github.com/JuliaBinaryWrappers/HDF4_jll.jl/releases/download/HDF4-v4.3.0+0/HDF4.v4.3.0.i686-linux-musl.tar.gz"
-[[HDF4]]
-arch = "i686"
-git-tree-sha1 = "3c1d4480da6e1df9a22f87099056f6b43ccdf99b"
-os = "windows"
-
-    [[HDF4.download]]
-    sha256 = "82f5ec746e3c8078c8d7f7f9a2523fbdecef497d3ab06beff0673f680134ea39"
-    url = "https://github.com/JuliaBinaryWrappers/HDF4_jll.jl/releases/download/HDF4-v4.3.0+0/HDF4.v4.3.0.i686-w64-mingw32.tar.gz"
-[[HDF4]]
-arch = "powerpc64le"
-git-tree-sha1 = "aef9e54b5f5165be62b84ec6ad7c43fc2646792d"
-libc = "glibc"
-os = "linux"
-
-    [[HDF4.download]]
-    sha256 = "cf2473f07c7a17570e36ecaa26502705c2bd483d4088bbbe66930c234e2b84f4"
-    url = "https://github.com/JuliaBinaryWrappers/HDF4_jll.jl/releases/download/HDF4-v4.3.0+0/HDF4.v4.3.0.powerpc64le-linux-gnu.tar.gz"
-[[HDF4]]
-arch = "x86_64"
-git-tree-sha1 = "cba7c418f4451a78b4da44158804acd3c4cc76bd"
-os = "macos"
-
-    [[HDF4.download]]
-    sha256 = "2b842d6f8bfc1b435bc1d54524993fa6a4cdbfc57f86e251ae1eb6439d885e2b"
-    url = "https://github.com/JuliaBinaryWrappers/HDF4_jll.jl/releases/download/HDF4-v4.3.0+0/HDF4.v4.3.0.x86_64-apple-darwin.tar.gz"
-[[HDF4]]
-arch = "x86_64"
-git-tree-sha1 = "3ad153f76754d71cd25479d2c53987865b7f2901"
-libc = "glibc"
-os = "linux"
-
-    [[HDF4.download]]
-    sha256 = "27380852286adb80773e45f4d7a74b93ec031c7aa9b223eb9584f330828734a1"
-    url = "https://github.com/JuliaBinaryWrappers/HDF4_jll.jl/releases/download/HDF4-v4.3.0+0/HDF4.v4.3.0.x86_64-linux-gnu.tar.gz"
-[[HDF4]]
-arch = "x86_64"
-git-tree-sha1 = "d9b4f096d24380cb7e350aa88eff93a9406c0da7"
-libc = "musl"
-os = "linux"
-
-    [[HDF4.download]]
-    sha256 = "54f00657a504f57d3607349b7aa2a2d270a69defae0fb5d897e535248fc19ff3"
-    url = "https://github.com/JuliaBinaryWrappers/HDF4_jll.jl/releases/download/HDF4-v4.3.0+0/HDF4.v4.3.0.x86_64-linux-musl.tar.gz"
-[[HDF4]]
-arch = "x86_64"
-git-tree-sha1 = "2f64fdef90567b935d6a4ab95b6268ee03cc96f7"
+arch = "aarch64"
+git-tree-sha1 = "ff90c2a1c4abf264b0058ff24af431b755a1d740"
 os = "freebsd"
 
     [[HDF4.download]]
-    sha256 = "067e4a479dd0f65d181348c74f63500981e718d4d1ac696588c527408136f0b9"
-    url = "https://github.com/JuliaBinaryWrappers/HDF4_jll.jl/releases/download/HDF4-v4.3.0+0/HDF4.v4.3.0.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "6e5ce22757d9196c8fc1f52834caebac4c65b303e35ea8693cff3244e811e615"
+    url = "https://github.com/JuliaBinaryWrappers/HDF4_jll.jl/releases/download/HDF4-v4.3.1+0/HDF4.v4.3.1.aarch64-unknown-freebsd.tar.gz"
 [[HDF4]]
-arch = "x86_64"
-git-tree-sha1 = "34ab6c9ce47e899e6f2f533ee1e0e0672434cd09"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "26914e724ac33628d4b5c119fce5f2e7137f23f3"
+libc = "glibc"
+os = "linux"
+
+    [[HDF4.download]]
+    sha256 = "d9135cb69717a6d1bf043dad6cc150fe2bf30731c2769a3ebde46d572f1afa6d"
+    url = "https://github.com/JuliaBinaryWrappers/HDF4_jll.jl/releases/download/HDF4-v4.3.1+0/HDF4.v4.3.1.armv6l-linux-gnueabihf.tar.gz"
+[[HDF4]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "7a97cd2a8b303326afe7ce9f522224c3563066b6"
+libc = "musl"
+os = "linux"
+
+    [[HDF4.download]]
+    sha256 = "4a7b40438665088539bb766499eb2ad1a5631fcd51fb6323a60d16152159194a"
+    url = "https://github.com/JuliaBinaryWrappers/HDF4_jll.jl/releases/download/HDF4-v4.3.1+0/HDF4.v4.3.1.armv6l-linux-musleabihf.tar.gz"
+[[HDF4]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "2e18e49442e9b256bde667adb8698f177a1d8745"
+libc = "glibc"
+os = "linux"
+
+    [[HDF4.download]]
+    sha256 = "3fe7c482444e336123694ecfe5ef051b9b387adc9a753566f281f1478a13a9f6"
+    url = "https://github.com/JuliaBinaryWrappers/HDF4_jll.jl/releases/download/HDF4-v4.3.1+0/HDF4.v4.3.1.armv7l-linux-gnueabihf.tar.gz"
+[[HDF4]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "36969e6af96ab1f9671d7b162b0703e7ba353dd5"
+libc = "musl"
+os = "linux"
+
+    [[HDF4.download]]
+    sha256 = "ec6c227fe219a6a2e2c00d9853512bb46d2723aaab3705e2bc8289070e7b5090"
+    url = "https://github.com/JuliaBinaryWrappers/HDF4_jll.jl/releases/download/HDF4-v4.3.1+0/HDF4.v4.3.1.armv7l-linux-musleabihf.tar.gz"
+[[HDF4]]
+arch = "i686"
+git-tree-sha1 = "49dfb983c1a57e4c338239364bb7849dab8dcafb"
+libc = "glibc"
+os = "linux"
+
+    [[HDF4.download]]
+    sha256 = "f2d5893e4eb705a4077f56990ac344db11d0290fc4b4bc55c8c2b153613abc90"
+    url = "https://github.com/JuliaBinaryWrappers/HDF4_jll.jl/releases/download/HDF4-v4.3.1+0/HDF4.v4.3.1.i686-linux-gnu.tar.gz"
+[[HDF4]]
+arch = "i686"
+git-tree-sha1 = "7efa73731ac334e76bd57aba7ed6aad5c8bc7ac4"
+libc = "musl"
+os = "linux"
+
+    [[HDF4.download]]
+    sha256 = "f7ed43e00993d79f68b748ad635104162d980291ca544106888a99a08c1a5293"
+    url = "https://github.com/JuliaBinaryWrappers/HDF4_jll.jl/releases/download/HDF4-v4.3.1+0/HDF4.v4.3.1.i686-linux-musl.tar.gz"
+[[HDF4]]
+arch = "i686"
+git-tree-sha1 = "a983a25385f26579e9d08193e6d533ba652d6a4c"
 os = "windows"
 
     [[HDF4.download]]
-    sha256 = "28b35fc2277b484d39f41fb11a2f21aa91f0fcd3f549ebe445a69bc424b5b964"
-    url = "https://github.com/JuliaBinaryWrappers/HDF4_jll.jl/releases/download/HDF4-v4.3.0+0/HDF4.v4.3.0.x86_64-w64-mingw32.tar.gz"
+    sha256 = "e0eabc4276ff41e4bd985d53916c06d5df57228458ed70ea1e6d7e594169902b"
+    url = "https://github.com/JuliaBinaryWrappers/HDF4_jll.jl/releases/download/HDF4-v4.3.1+0/HDF4.v4.3.1.i686-w64-mingw32.tar.gz"
+[[HDF4]]
+arch = "powerpc64le"
+git-tree-sha1 = "96bdcfcd15ba2c65883a19bf6d79793432cb8a05"
+libc = "glibc"
+os = "linux"
+
+    [[HDF4.download]]
+    sha256 = "66255997ae53ddfcbce3e9a0bfe0c24dfaef7190b8aea5c9de08a0b0b2000c7a"
+    url = "https://github.com/JuliaBinaryWrappers/HDF4_jll.jl/releases/download/HDF4-v4.3.1+0/HDF4.v4.3.1.powerpc64le-linux-gnu.tar.gz"
+[[HDF4]]
+arch = "riscv64"
+git-tree-sha1 = "3a2328d822f1d34a377bd6c98008a98e168a9a46"
+libc = "glibc"
+os = "linux"
+
+    [[HDF4.download]]
+    sha256 = "47168f3765bec19fcaa98da4936797c72842c9cf904dea00ae62cd8fb41a4763"
+    url = "https://github.com/JuliaBinaryWrappers/HDF4_jll.jl/releases/download/HDF4-v4.3.1+0/HDF4.v4.3.1.riscv64-linux-gnu.tar.gz"
+[[HDF4]]
+arch = "x86_64"
+git-tree-sha1 = "e9f50cdecdfce66930d7fcc429aff0b2b156dffa"
+os = "macos"
+
+    [[HDF4.download]]
+    sha256 = "d0737a0390a7d6879e77357c964e4f6f4b284479cb8f76ea74dcf5e08e9aa648"
+    url = "https://github.com/JuliaBinaryWrappers/HDF4_jll.jl/releases/download/HDF4-v4.3.1+0/HDF4.v4.3.1.x86_64-apple-darwin.tar.gz"
+[[HDF4]]
+arch = "x86_64"
+git-tree-sha1 = "e3d5dedcac098aba2b6ef764600847b00bb4523d"
+libc = "glibc"
+os = "linux"
+
+    [[HDF4.download]]
+    sha256 = "5e7e377f7e86972f306b53461305b52cfa783b2a97433e01dfc48f6e874ac0f2"
+    url = "https://github.com/JuliaBinaryWrappers/HDF4_jll.jl/releases/download/HDF4-v4.3.1+0/HDF4.v4.3.1.x86_64-linux-gnu.tar.gz"
+[[HDF4]]
+arch = "x86_64"
+git-tree-sha1 = "4d9fac28d0488173e2695e0459eaab12e2e7366b"
+libc = "musl"
+os = "linux"
+
+    [[HDF4.download]]
+    sha256 = "16f8f091c2badf98bb7980ae599001d49d44f9cd52656d1f83990042f87a72f3"
+    url = "https://github.com/JuliaBinaryWrappers/HDF4_jll.jl/releases/download/HDF4-v4.3.1+0/HDF4.v4.3.1.x86_64-linux-musl.tar.gz"
+[[HDF4]]
+arch = "x86_64"
+git-tree-sha1 = "43c5d30e959d354eef9333530a9bbd4bdf0c3a24"
+os = "freebsd"
+
+    [[HDF4.download]]
+    sha256 = "824ddb6134889ceaae6ea07ddc9731d19e1e72d07064c3ff61053957f8905dbe"
+    url = "https://github.com/JuliaBinaryWrappers/HDF4_jll.jl/releases/download/HDF4-v4.3.1+0/HDF4.v4.3.1.x86_64-unknown-freebsd.tar.gz"
+[[HDF4]]
+arch = "x86_64"
+git-tree-sha1 = "95f88d081d330eade3995f7a391d952bd660a702"
+os = "windows"
+
+    [[HDF4.download]]
+    sha256 = "12f2016c4367c40d0f552f617463a886eb130310519a653b48e78b0144b8f86a"
+    url = "https://github.com/JuliaBinaryWrappers/HDF4_jll.jl/releases/download/HDF4-v4.3.1+0/HDF4.v4.3.1.x86_64-w64-mingw32.tar.gz"
