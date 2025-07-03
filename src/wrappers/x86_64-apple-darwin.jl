@@ -17,13 +17,13 @@ function __init__()
     JLLWrappers.@generate_init_header(JpegTurbo_jll, Zlib_jll, libaec_jll)
     JLLWrappers.@init_library_product(
         libhdf,
-        "lib/libhdf.10.0.0.dylib",
+        "lib/libhdf.10.0.1.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libmfhdf,
-        "lib/libmfhdf.10.0.0.dylib",
+        "lib/libmfhdf.10.0.1.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
