@@ -5,28 +5,16 @@ using JpegTurbo_jll
 using Zlib_jll
 using libaec_jll
 JLLWrappers.@generate_wrapper_header("HDF4")
-JLLWrappers.@declare_library_product(libhdf, "libhdf.so.10")
-JLLWrappers.@declare_library_product(libmfhdf, "libmfhdf.so.10")
 JLLWrappers.@declare_executable_product(hdfed)
 JLLWrappers.@declare_executable_product(hdfimport)
 JLLWrappers.@declare_executable_product(hdfls)
 JLLWrappers.@declare_executable_product(hdiff)
 JLLWrappers.@declare_executable_product(hdp)
 JLLWrappers.@declare_executable_product(hrepack)
+JLLWrappers.@declare_library_product(libhdf, "libhdf.so.11")
+JLLWrappers.@declare_library_product(libmfhdf, "libmfhdf.so.11")
 function __init__()
     JLLWrappers.@generate_init_header(JpegTurbo_jll, Zlib_jll, libaec_jll)
-    JLLWrappers.@init_library_product(
-        libhdf,
-        "lib/libhdf.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
-    )
-
-    JLLWrappers.@init_library_product(
-        libmfhdf,
-        "lib/libmfhdf.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
-    )
-
     JLLWrappers.@init_executable_product(
         hdfed,
         "bin/hdfed",
@@ -55,6 +43,18 @@ function __init__()
     JLLWrappers.@init_executable_product(
         hrepack,
         "bin/hrepack",
+    )
+
+    JLLWrappers.@init_library_product(
+        libhdf,
+        "lib/libhdf.so",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_library_product(
+        libmfhdf,
+        "lib/libmfhdf.so",
+        RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@generate_init_footer()
